@@ -65,6 +65,7 @@ Now you don't have to override entire actions just to decorate something:
 module Spree
   OrdersController.class_eval do
     def show
+      # <insert 10+ lines of some original Spree code here>
       @order = Spree::Order.find_by_number!(params[:id]).decorate
       # uncool, whole action overriden just to add 9 letters: .decorate
     end

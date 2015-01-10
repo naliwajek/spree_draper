@@ -24,7 +24,7 @@ Usage
 
 Create your Draper decorators as usual:
 
-```
+```ruby
 # app/decorators/spree/user_decorator.rb
 module Spree
   class UserDecorator < Draper::Decorator

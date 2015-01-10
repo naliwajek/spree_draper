@@ -10,14 +10,13 @@ Installation
 Add spree_draper to your Gemfile:
 
 ```ruby
-gem 'spree_draper', github: 'naliwajek/spree_draper', branch:
-'2-1-stable'
+gem 'spree_draper', github: 'naliwajek/spree_draper', branch: '2-1-stable'
 ```
 
-And bundle your dependencies:
+And install:
 
 ```shell
-bundle
+bundle install
 ```
 
 Testing

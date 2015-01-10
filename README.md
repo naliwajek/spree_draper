@@ -91,7 +91,7 @@ TODO
 - tests
 - `only`, `except` options, just like in the `before/after_action`
 - allow to pass variable such as `{ user: :SpecialUserDecorator }` for
-  those special cases when you want to use different decorator
+  those special cases when you want to use a different decorator
 
 Testing
 -------

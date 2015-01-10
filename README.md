@@ -1,7 +1,8 @@
-SpreeDraper
-===========
+spree_draper
+============
 
-Introduction goes here.
+Use [Draper](https://github.com/drapergem/draper) gem in your Spree application without overriding
+anything. Works both in the front-end (user interface) and in the back-end (admin-panel).
 
 Installation
 ------------
@@ -9,14 +10,14 @@ Installation
 Add spree_draper to your Gemfile:
 
 ```ruby
-gem 'spree_draper'
+gem 'spree_draper', github: 'naliwajek/spree_draper', branch:
+'2-1-stable'
 ```
 
-Bundle your dependencies and run the installation generator:
+And bundle your dependencies:
 
 ```shell
 bundle
-bundle exec rails g spree_draper:install
 ```
 
 Testing
@@ -30,11 +31,4 @@ bundle exec rake test_app
 bundle exec rspec spec
 ```
 
-When testing your applications integration with this extension you may use it's factories.
-Simply add this require statement to your spec_helper:
-
-```ruby
-require 'spree_draper/factories'
-```
-
-Copyright (c) 2015 [name of extension creator], released under the New BSD License
+Copyright (c) 2015 Jakub Naliwajek, released under the New BSD License
